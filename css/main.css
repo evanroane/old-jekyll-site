@@ -1,0 +1,27 @@
+nav {
+
+}
+
+img#photo {
+	display: block;
+    margin-left: auto;
+    margin-right: auto 
+}
+
+ul#nav {
+	display: inline-block;
+}
+
+ul#nav li a{
+	-moz-border-radius: 1em;
+	-webkit-border-radius: 1em;
+	border-radius: 1em;
+	background-color: green;
+	border-color: #000000;
+	cursor:pointer;
+	color:#000000;
+	font-family:arial;
+	font-size: 1em;
+	padding:4px 1.5em;
+	text-decoration:none;
+}
