@@ -39,4 +39,4 @@ permalink: /resume/
 * In Print
     * Roane, Evan. "The Reemergence of Spinoza's _Conatus_ in the Political Sphere." _Southwest Philosophical Studies_. (2011). Pre-print draft is available at [PhilPapers](http://philpapers.org/rec/ROATRO). Please cite print version.
 * Online
-  * Occasionally, I post for [The Partially Examined Life](#), a philosophy podcast and community.
+  * Occasionally, I post blog articles for [The Partially Examined Life](#), a philosophy podcast and community.
