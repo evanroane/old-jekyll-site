@@ -32,18 +32,17 @@
     .page-link {
 
           height: 20px;
-          background-color:transparent;
-          -moz-border-radius:10px;
-          -webkit-border-radius:10px;
-          border-radius:10px;
+          -moz-border-radius: 10px;
+          -webkit-border-radius: 10px;
+          border-radius: 10px;
           border:1px solid #000000;
           background: #FFFFFF;
-          cursor:pointer;
-          color:#000000;
-          font-family:arial;
-          font-size:17px;
-          padding:0.25em 0.5em;
-          text-decoration:none;
+          color: #000000;
+          font-family: arial;
+          font-size: 17px;
+          padding: 0.25em 0.5em;
+          text-decoration: none;
+
 
         // color: $text-color;
         // line-height: $base-line-height;
@@ -59,7 +58,7 @@
         top: 9px;
         right: 30px;
         background-color: $background-color;
-        border: 1px solid $grey-color-light;
+        border: 1px solid $grey-color-dark;
         border-radius: 5px;
         text-align: right;
 
@@ -89,12 +88,17 @@
 
         &:hover .trigger {
             display: block;
-            padding-bottom: 5px;
+            padding-bottom: 15px;
         }
 
         .page-link {
             display: block;
             padding: 5px 10px;
+            border: none;
+            background: $background-color;
+            text-decoration: none;
+
+
         }
     }
 }

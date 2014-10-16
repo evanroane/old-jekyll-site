@@ -1,48 +1,23 @@
-/* Font Selector */
-/* font-family: 'Quattrocento', serif;
-
 /* Red Borders Everywhere */
-
 /** {border: 1px solid red;}*/
-
-nav {
-	margin: 0 0;
-	clear: right;
-}
-
-nav#bar {
-	text-align: center;
-
-}
-
-nav#bar ul {
-background: #eaeaea;
-
-}
-
-nav#bar ul li{
-	display: inline-block;
-}
-
-
-
 
 h1 {
 	text-align: center;
-
-	font-size: 3.5em;
+	font-family: 'Quattrocento', serif;
+	font-size: 2em;
 	background: #eaeaea;
 }
 
 h2 {
-	text-align: left;
 	margin-left: 1em;
 	font-family: 'Quattrocento', serif;
 	font-size: 2.5em;
-
 }
 
-
+h3 {
+	font-family: 'Quattrocento', serif;
+	font-size: 2.5em;
+}
 
 .about-caption {
 	max-width: 800px;
