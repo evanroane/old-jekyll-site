@@ -21,6 +21,8 @@
 
 }
 
+
+
 .site-nav {
     float: right;
     line-height: 56px;
@@ -41,9 +43,6 @@
           padding: 0.25em 0.5em;
           text-decoration: none;
 
-
-        // color: $text-color;
-        // line-height: $base-line-height;
 
         // Gaps between nav items, but not on the first one
         &:not(:first-child) {
@@ -84,10 +83,7 @@
             display: none;
         }
 
-        &:hover .trigger {
-            display: block;
-            padding-bottom: 15px;
-        }
+
 
         .page-link {
             display: block;
@@ -101,7 +97,18 @@
     }
 }
 
+@include media-query($on-palm) {
 
+  .no-touch .site-nav:hover .trigger {
+    display: block;
+    padding-bottom: 15px;
+  }
+  .site-nav a:focus + .trigger {
+    display: block;
+    padding-bottom: 15px;
+  }
+
+}
 
 /**
  * Site footer
