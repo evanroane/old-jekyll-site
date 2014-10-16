@@ -1,27 +1,9 @@
+/* Font Selector */
+/* font-family: 'Quattrocento', serif;
+
 /* Red Borders Everywhere */
 
 /** {border: 1px solid red;}*/
-
-body {
-	background: #f6f6f6;
-}
-
-img#photo {
-	display: block;
-	margin: 0 auto;
-	height: auto;
-	max-width: 30%;
-	border-radius: 2.5em;
-	padding: 1em;
-}
-
-img#navphoto {
-	float: right;
-	margin-right: 2em;
-	height: auto;
-	max-width: 9%;
-	border-radius: 1.25em;
-}
 
 nav {
 	margin: 0 0;
@@ -42,26 +24,12 @@ nav#bar ul li{
 	display: inline-block;
 }
 
-nav#bar ul li a{
-	background-color:transparent;
-	-moz-border-radius:10px;
-	-webkit-border-radius:10px;
-	border-radius:10px;
-	border:2px solid #000000;
-	background: #FFFFFF;
-	display:inline-block;
-	cursor:pointer;
-	color:#000000;
-	font-family:arial;
-	font-size:17px;
-	padding:0.25em 0.5em;
-	text-decoration:none;
-}
+
 
 
 h1 {
 	text-align: center;
-	font-family: 'Quattrocento', serif;
+
 	font-size: 3.5em;
 	background: #eaeaea;
 }
@@ -76,11 +44,10 @@ h2 {
 
 
 
-p#caption {
+.about-caption {
 	max-width: 800px;
 	margin: 0 auto;
 	padding: 0.5em;
 	border-radius:10px;
-	border:2px solid #000000;
+	border:1px solid #000000;
 }
-
