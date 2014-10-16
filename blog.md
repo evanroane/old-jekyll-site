@@ -4,9 +4,9 @@ title: Blog
 permalink: /blog/
 ---
 
-Blog Page
+If you are interested in what is on my mind lately, this is a good place to look.
 
-This is the page that I want to use to display my blog.
+In the coming months I will primarily be reflecting on my experience at Nashville Software School. However, I also post about a variety of topics including food, exercise, and whatever I'm reading at the moment.
 
 <h1 class="page-heading">Posts</h1>
 
