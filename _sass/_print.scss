@@ -1,0 +1,17 @@
+@media print and (min-resolution: 300dpi) {
+    p {
+        font-size: 20px;
+        color: red;
+    }
+    // .post-title
+    // .page-content div
+    // h3#work-experience
+    // li li li
+    // h3#education
+    // h3#community-involvement
+    // h3#publications
+}
+
+
+// <link rel="stylesheet" media="print and (min-width: 8.5in)"
+//     href="http://foo.com/mystyle.css" />

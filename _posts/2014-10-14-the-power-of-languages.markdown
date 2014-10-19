@@ -2,7 +2,7 @@
 layout: post
 title:  "The Power of Languages"
 date:   2014-10-15 9:37 pm
-categories: Tests
+categories: NSS
 ---
 
 Last week, I began the apprentice program at Nashville Software School. While I knew that my next career move would be to get into software development, I didn’t think that my path would include going back to school to do so. I have really enjoyed meeting the various members of my cohort, Cohort 7. Everyone has been incredibly cooperative and positive. It is wonderful how everyone brings a different background to our sessions and contributes the strength they gained in their experiences.
