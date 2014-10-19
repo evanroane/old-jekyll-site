@@ -14,7 +14,7 @@ While I will refer to using this process for making a resume, you may use it for
 <img src="{{ site.url }}/img/blog-media-queries-post.png" />
 
 Process:
-
+{% highlight ruby linenos %}
 1. Get an Idea of What You Want your Resume to Look Like
 
 2. Take Note of the Print Styles You Have to Have
