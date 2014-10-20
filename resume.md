@@ -4,6 +4,8 @@ title: Résumé
 permalink: /resume/
 ---
 
+This is a test
+
 ### Work Experience
 * Nashville Software School - October 2014 to Present
   * Apprentice Web Developer
