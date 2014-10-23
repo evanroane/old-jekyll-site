@@ -45,3 +45,38 @@ In my loaded page HTML, I get...
 {% highlight html linenos %}
 <p>a</p>
 {% endhighlight %}
+
+Jekyll has a good resource for how to use Markdown for creating page content. You can find it here.
+
+The classes you will find in a generated page's HTML code will look like the following examples.
+
+{% highlight html linenos %}
+<header class="site-header">
+<div class="wrapper">
+<div class="site-title">
+<nav class="site-nav">
+<a href="#" class="menu-icon">
+<div class="trigger">
+<a class="page-link" href="/">
+<div class="page-content">
+<div class="wrapper">
+<div class="post">
+<header class="post-header">
+<h1 class="post-title">
+<article class="post-content">
+<h3 id="work-experience">Work Experience</h3>
+<p>
+<ul>
+<ol>
+<li>
+<footer class="site-footer">
+<div class="wrapper">
+<div class="footer-col-w
+<div class="footer-col  footer-col-1">
+<ul class="contact-list">
+<div class="footer-col  footer-col-2">
+<ul class="social-media-list">
+<span class="icon  icon--github">
+{% endhighlight %}
+
+There are a few patters we can recognize here.
