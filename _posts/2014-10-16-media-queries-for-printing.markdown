@@ -144,8 +144,6 @@ h2#hello-world {
 }
 {% endhighlight %}
 
-##Hello world|
-
 Notice that the HTML Jekyll generates replaces spaces with "en" dashes and ignores other punctuation including '!', '?', '@', '%', '^', '&', '*', '+', '-', '_', '=', '§', '±', '`', and '~'. There may be other symbols ignored, but these are the only ones I tested.
 
 Angle brackets, '<' and '>' are also permissible, but Markdown interprets text typed between angle brackets as an HTML tag if the text follows the opening angle bracket without a space.
