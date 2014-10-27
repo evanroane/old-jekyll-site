@@ -2,15 +2,10 @@
 // Print styles go here
 @media print {
 
-  @page {
-    margin: 0.5in;
-    content: hidden;
-   }
-
   body {
    background-color: #FFFFFF;
    font-family: 'EB Garamond', serif;
-   font-color: black;
+   color: black;
    }
 
   header, footer {
