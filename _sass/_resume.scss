@@ -1,0 +1,134 @@
+// Browser Formatting for Resume
+
+// Broad Formatting
+section#jobs li, section#education li, section#community-involvement li, section#publications li {
+  list-style-type: disc;
+}
+
+// Preamble Formatting
+section#preamble h1 {
+  background: none;
+  border-bottom: 1px solid #000000;
+  line-height: 1;
+  margin: 0;
+}
+
+section#preamble ul {
+  list-style-type: none;
+  display: block;
+  margin-left: 0;
+}
+
+section#preamble ul {
+  text-align: center;
+}
+
+// Experience Section
+
+section#jobs{}
+
+section#jobs ul li:last-child {
+  margin-bottom: 0.33em;
+}
+
+section#jobs h2, {
+  line-height: 1;
+  margin: 0;
+}
+
+.employer {
+  font-weight: bold;
+}
+
+.employer-location {}
+
+.employer-location:before {
+  content: '('
+  }
+
+.employer-location:after {
+ content: ')'
+ }
+
+.begin-end {
+  float: right;
+  margin: 0;
+  word-wrap: break-word;
+}
+
+.role {
+  clear: both;
+  display: block;
+  line-height: 1;
+  margin: 0;
+  font-style: italic;
+}
+
+// Education
+
+section#education {}
+
+section#education h2 {
+  line-height: 1;
+  margin: 0;
+}
+
+.school {
+  font-weight: bold;
+}
+.school-location {}
+
+.school-location:before {
+  content: '('
+  }
+
+.school-location:after {
+ content: ')'
+ }
+
+.begin {}
+.end {}
+.degree {
+  clear: both;
+  display: block;
+  line-height: 1;
+  margin: 0;
+}
+
+section#community-involvement {}
+
+section#community-involvement h2, {
+  line-height: 1;
+  margin: 0;
+}
+
+section#community-involvement .role {
+  clear: both;
+  display: inline;
+  margin: 0;
+  font-weight: bold;
+  font-style: normal;
+}
+
+section#community-involvement .organization {
+  font-style: italic;
+  font-weight: normal;
+  display: block;
+  line-height: 1;
+  margin: 0;
+  clear: both;
+}
+
+// Publications
+
+section#publications h2 {
+  line-height: 1;
+  margin: 0;
+}
+
+
+// Italics for publication titles
+
+.pub-title {
+  font-style: italic;
+}

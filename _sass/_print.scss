@@ -1,17 +1,45 @@
-@media print and (min-resolution: 300dpi) {
-    p {
-        font-size: 20px;
-        color: red;
+
+// Print styles go here
+@media print {
+
+  @page {
+    margin: 0.5in;
+    content: hidden;
+   }
+
+  body {
+   background-color: #FFFFFF;
+   font-family: 'EB Garamond', serif;
+   font-color: black;
+   }
+
+  header, footer {
+   display: none;
+   }
+
+  section#preamble h1 {
+    font-family: 'EB Garamond', serif;
+    font-size: 2em;
     }
-    // .post-title
-    // .page-content div
-    // h3#work-experience
-    // li li li
-    // h3#education
-    // h3#community-involvement
-    // h3#publications
-}
 
+  section#jobs h2, section#education h2, section#commnity-involvement h2, section#publication h2 {
+    font-family: 'EB Garamond', serif;
+    font-size: 1.5em;
+    }
 
-// <link rel="stylesheet" media="print and (min-width: 8.5in)"
-//     href="http://foo.com/mystyle.css" />
+  a:link  {
+     color:#000000;
+     }
+
+  a:visited {
+     color:#000000;
+     }
+
+  a:hover   {
+     color:#000000;
+     }
+
+  a:active  {
+     color:#000000;
+     }
+ }
